@@ -65,7 +65,7 @@ function setup() {
     magFac = new DynamicGraph(125, 325, 230, 290, "Transmissibility", "n", 0, 2.5, 0, 7.5, System.mag_func);
     phaseAng = new DynamicGraph(125, 495, 150, 290, "Phase Angle", "n", 0, 2.5, 0, 180, System.phase_func);
 
-    k = new NumberInput(620, 150, "Stiffness (N/m)", 8000, 999000, 20000, 0.5, true);
+    k = new NumberInput(620, 150, "Stiffness(N/m)", 8000, 999000, 20000, 0.5, true);
     m = new NumberInput(620, 200, "Mass(kg)", 2, 200, 32, 0.5, true);
     z = new NumberInput(620, 253, "Damping Ratio", 0.01, 1.00, 0.07, 0.01, true);
     y = new NumberInput(620, 300, "Exitation Magn-\nitude (m)", 0, 25, 20, 0.5, false);
